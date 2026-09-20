@@ -1,0 +1,115 @@
+/* Page Background Setup */
+body {
+    background-color: #f4f4f4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Main Container Card */
+.card {
+    background-color: #ffffff;
+    max-width: 620px;
+    width: 100%;
+    padding: 50px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.statement-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.statement-header h1 {
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    font-weight: normal;
+    color: #111111;
+    margin: 0 0 8px 0;
+}
+
+.statement-header h2 {
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #0066b2; /* BYU Idaho Blue */
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Paragraph and Text Styling */
+.content {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #222222;
+}
+
+.intro {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.subheading {
+    margin-bottom: 15px;
+}
+
+/* Numbered List Styling */
+.points-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.points-list li {
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.points-list li strong {
+    font-weight: bold;
+}
+
+/* BYU-Idaho CSS Logo Footer */
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-byu {
+    font-size: 32px;
+    font-weight: 900;
+    color: #0066b2;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.logo-idaho {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0066b2;
+    letter-spacing: 5px;
+    margin-top: 3px;
+}
