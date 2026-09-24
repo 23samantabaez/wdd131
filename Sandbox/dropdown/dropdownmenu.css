@@ -8,3 +8,7 @@ gap: 1em;
 .submenu {
 display: none;
 }
+
+.show {
+    display: block;
+}
