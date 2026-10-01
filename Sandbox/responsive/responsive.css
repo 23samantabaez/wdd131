@@ -3,6 +3,12 @@
 
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
+    padding: 0;
+}
+/*this says: image, be as big as the box you are in*/
+img{
+    max-width: 100%;
 }
 header,
 main,
@@ -46,3 +52,30 @@ footer {
     text-align: center;
 }
           
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+    }
+
+    nav a{
+        padding: 10px;
+        display: block;
+    }
+    .menu-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
