@@ -77,11 +77,23 @@ footer {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    nav a {
+        display: inline-block;
+    }
 }
 
 function toggleMenu() {
     
 }
 
-document.querySelector(".menu-btn").addEventListener("click", toggleMenu) {
-    }
+
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+          
