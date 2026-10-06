@@ -31,7 +31,10 @@ section {
 nav a {
     padding: 20px;
     color: black;
-    display: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid #88aaaa;
 }
 nav a:hover {
     text-decoration: none;
@@ -47,19 +50,36 @@ nav a:hover {
     height: 4px;
     background-color: black;
     margin: 5px 0;
+    transition: 0.4s;
 }
+
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.hide {
+    display: none;
+}
+          
 footer {
     text-align: center;
 }
           
-@media screen and (max-width: 600px) {
-    nav {
+@media screen and (min-width: 600px) {
+    nav.main-nav {
         display: flex;
     }
 
     nav a{
         padding: 10px;
         display: block;
+        border-top: none;
     }
     .menu-btn {
         display: none;
@@ -79,21 +99,9 @@ footer {
     }
     nav a {
         display: inline-block;
+        border-top: none;
     }
 }
 
-function toggleMenu() {
-    
-}
 
 
-
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-          

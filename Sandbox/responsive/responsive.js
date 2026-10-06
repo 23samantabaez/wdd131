@@ -30,5 +30,18 @@ console.log(scriptureElements);
 scriptureElements.forEach(renderNumber);
 }
 
+function toggleMenu() {
+    navEl.classList.toggle("hide");
+    menuBtn.classList.toggle("change");
+}
+
+//document.querySelector(".menu-btn").addEventListener("click", toggleMenu);
+
 addIndex();
 displayWelcome();
+
+const menuBtn = document.querySelector(".menu-btn")
+const navEl = document.querySelector(".main-nav")
+
+
+menuBtn.addEventListener("click", toggleMenu);
