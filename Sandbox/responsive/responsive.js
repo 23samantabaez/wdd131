@@ -45,3 +45,5 @@ const navEl = document.querySelector(".main-nav")
 
 
 menuBtn.addEventListener("click", toggleMenu);
+
+
