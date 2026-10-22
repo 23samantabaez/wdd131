@@ -45,14 +45,15 @@ const movies = [
           
     function MovieTemplate(movie) {
         return`<article class="movie">
-        <h2>Spider-Man: Into the Spider-Verse</h2>
-        <img src="https://wddbyui.github.io/wdd131/images/spiderman.png" alt="Miles Morales swinging through the city">
-        <p><strong>Release Date:</strong> Dec 14, 2018</p>
-        <p><strong>Recommended Age:</strong> 10+</p>
-        <p><strong>Genre:</strong> Action/Adventure</p>
-        <p><strong>Rating:</strong> <span aria-label="five out of five stars">⭐⭐⭐⭐⭐</span></p>
-        <p id='desc'>Miles Morales becomes the Spider-Man of his reality and crosses paths with others from the multiverse.</p>
+        <h2>${movie.title}</h2>
+        <img src="${movie.imgSrc}" alt="${movie.imgAlt}">
+        <p><strong>Release Date:</strong> ${movie.date}</p>
+        <p><strong>Recommended Age:</strong> ${movie.ages}</p>
+        <p><strong>Genre:</strong> ${movie.genre}</p>
+        <p><strong>Rating:</strong> <span aria-label="five out of five stars">${movie.stars}</span></p>
+        <p id='desc'>${movie.description}</p>
         </article>`;}
+
 const moviesHtml = movies.map(MovieTemplate);
 const movieSection = document.querySelector("#movie-list");
 movieSection.innerHTML = moviesHtml.join("");
