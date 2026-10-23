@@ -40,9 +40,9 @@ const movies = [
         genre: "Historical/Religious",
         stars: "⭐⭐⭐⭐"
       }
-    ];
+  ];
 
-          
+
     function MovieTemplate(movie) {
         return`<article class="movie">
         <h2>${movie.title}</h2>
