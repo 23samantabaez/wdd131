@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Recipe Book | Apple Crisp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Recipe Book | Apple Crisp" />
+        <meta
+        property="og:description"
+        content="A delicious and easy apple crisp recipe."
+    />
+    <meta property="og:url" content="https://yourwebsite.com/recipes/" />
+    
+
+    <!-- X/Twitter Card metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Recipe Book | Apple Crisp" />
+    <meta
+      name="twitter:description"
+      content="A delicious and easy apple crisp recipe."
+    />
+    
+    <link rel="icon" href="https://www.flaticon.com/free-icons/recipe" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="logo-area">
+        <img
+          src="images/recipe-book.png"
+          alt="Recipe book logo"
+          class="logo"
+        />
+
+        <h1>Recipe Book</h1>
+      </div>
+
+      <form class="search-form" role="search">
+        <label for="search" class="visually-hidden">Search recipes</label>
+
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search recipes"
+        />
+
+        <button type="submit" aria-label="Search">
+          <img src="images/search.svg" alt="" />
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <article class="recipe-card">
+        <div class="recipe-image">
+          <img
+            src="images/apple-crisp.jpg"
+            alt="Fresh apple crisp with a golden brown topping"
+          />
+        </div>
+
+        <div class="recipe-content">
+          <p class="recipe-category">Dessert</p>
+
+          <h2>Apple Crisp</h2>
+
+          <span
+            class="rating"
+            role="img"
+            aria-label="Rating: 4 out of 5 stars"
+          >
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+          </span>
+
+          <p class="recipe-description">
+            This warm and delicious apple crisp is made with fresh apples,
+            cinnamon, and a buttery oat topping. It is an easy dessert that is
+            perfect for sharing with family and friends.
+          </p>
+
+          <div class="recipe-info">
+            <p><strong>Prep Time:</strong> 15 minutes</p>
+            <p><strong>Cook Time:</strong> 40 minutes</p>
+            <p><strong>Servings:</strong> 6</p>
+          </div>
+
+          <button class="view-recipe">View Recipe</button>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>
+          © 2026 Recipe Book
+          <br />
+          <a
+            href="https://www.flaticon.com/free-icons/recipe"
+            title="recipe icons"
+          >
+            Recipe icons created by Freepik - Flaticon
+          </a>
+        </p>
+
+        <div class="social">
+          <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates -->
+          <a href="#" aria-label="Instagram">
+            <img src="images/instagram_icon.svg" alt="" />
+          </a>
+
+          <a href="#" aria-label="YouTube">
+            <img src="images/youtube_icon.svg" alt="" />
+          </a>
+
+          <a href="#" aria-label="Pinterest">
+            <img src="images/pinterest_icon.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
