@@ -94,7 +94,6 @@ a {
   height: 24px;
 }
 
-/* Recipe card */
 
 .recipe-card {
   display: flex;
@@ -127,9 +126,8 @@ a {
 .recipe-category {
   margin: 0;
   color: #666;
-  font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 0.1rem;
+  width: 25%;
 }
 
 .rating {
@@ -155,15 +153,7 @@ a {
   margin: 0;
 }
 
-.view-recipe {
-  align-self: flex-start;
-  padding: 0.75rem 1.25rem;
-  color: white;
-  border: none;
-  background-color: #1e4a8b;
-  font-size: 1rem;
-  cursor: pointer;
-}
+
 
 .site-footer {
   padding: 2rem 1.5rem;
